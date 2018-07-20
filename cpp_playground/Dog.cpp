@@ -15,3 +15,11 @@ std::string Dog::GetName() const&
 {
     return m_name;
 }
+
+//Dog Dog::operator+ (const Dog& rhs ) const
+//{
+//    Dog newdg("copydog", rhs.IsDangerous());
+//    return newdg;
+//}
+
+

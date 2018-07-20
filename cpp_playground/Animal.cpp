@@ -23,20 +23,30 @@ bool Animal::IsDangerous() const&
     return m_dangerous;
 }
 
-void Animal::AddFood(std::unique_ptr<Food> food)
+void Animal::AddFoodPtr(std::unique_ptr<Food> food)
 {
-    m_food.push_back(std::move(food));
+    m_food_ptr.push_back(std::move(food));
 }
 
+void Animal::AddFood(Food& food)
+{
+    m_food.push_back(food);
+}
 
 std::string Animal::Eats()
 {
     std::string food{m_species + " eats:"};
-    for (std::unique_ptr<Food> const &fd : m_food)
+//    for (std::unique_ptr<Food> const &fd : m_food)
+//    {
+//        food += " ";
+//        food += fd->GetName();
+//    }
+    for (Food const &fd : m_food)
     {
         food += " ";
-        food += fd->GetName();
+        food += fd.GetName();
     }
+
     return food;
 }
 

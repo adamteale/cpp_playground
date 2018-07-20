@@ -14,6 +14,15 @@ public:
     Dog(std::string name, bool dangerous);
     ~Dog();
     std::string GetName() const&;
+    
+//    Dog operator+ (const Dog& )  const;
+    Dog operator+ (const Dog& rhs )
+    {
+        Dog newdg("copydog", (this->IsDangerous() || rhs.IsDangerous() ));
+        return newdg;
+    }
+
+    
 };
 
 #endif /* Dog_hpp */

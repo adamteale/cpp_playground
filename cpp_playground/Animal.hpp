@@ -11,8 +11,9 @@ class Animal
 private:
     std::string m_species;
     bool m_dangerous;
-    std::vector<std::unique_ptr<Food>> m_food;
-    
+    std::vector<Food> m_food;
+    std::vector<std::unique_ptr<Food>> m_food_ptr;
+
 public:
     Animal() = delete;
     Animal(std::string species, bool dangerous);
@@ -21,7 +22,9 @@ public:
     
     bool IsDangerous() const&;
     
-    void AddFood(std::unique_ptr<Food> food);
+    void AddFoodPtr(std::unique_ptr<Food> food);
+    void AddFood(Food& food);
+    
     std::string Eats();
     
 };
