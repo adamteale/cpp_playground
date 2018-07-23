@@ -7,14 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		66B1F90921027115005B8186 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B1F90821027115005B8186 /* main.cpp */; };
-		66B1F91E21027147005B8186 /* Dog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B1F91921027147005B8186 /* Dog.cpp */; };
-		66B1F91F21027147005B8186 /* Animal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B1F91B21027147005B8186 /* Animal.cpp */; };
-		66B1F92021027147005B8186 /* Food.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66B1F91D21027147005B8186 /* Food.cpp */; };
+		66BF13F02106851A00C5DA52 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 66BF13EF2106851A00C5DA52 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		66B1F90321027115005B8186 /* CopyFiles */ = {
+		66BF13EA2106851A00C5DA52 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -26,18 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		66B1F90521027115005B8186 /* cpp_playground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = cpp_playground; sourceTree = BUILT_PRODUCTS_DIR; };
-		66B1F90821027115005B8186 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		66B1F91821027147005B8186 /* Animal.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Animal.hpp; sourceTree = "<group>"; };
-		66B1F91921027147005B8186 /* Dog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dog.cpp; sourceTree = "<group>"; };
-		66B1F91A21027147005B8186 /* Dog.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dog.hpp; sourceTree = "<group>"; };
-		66B1F91B21027147005B8186 /* Animal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Animal.cpp; sourceTree = "<group>"; };
-		66B1F91C21027147005B8186 /* Food.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Food.hpp; sourceTree = "<group>"; };
-		66B1F91D21027147005B8186 /* Food.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Food.cpp; sourceTree = "<group>"; };
+		66BF13EC2106851A00C5DA52 /* FoodAnimalDog */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FoodAnimalDog; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BF13EF2106851A00C5DA52 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66B1F90221027115005B8186 /* Frameworks */ = {
+		66BF13E92106851A00C5DA52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,104 +38,95 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		66B1F8FC21027115005B8186 = {
+		66BF13E32106851A00C5DA52 = {
 			isa = PBXGroup;
 			children = (
-				66B1F90721027115005B8186 /* cpp_playground */,
-				66B1F90621027115005B8186 /* Products */,
+				66BF13EE2106851A00C5DA52 /* FoodAnimalDog */,
+				66BF13ED2106851A00C5DA52 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		66B1F90621027115005B8186 /* Products */ = {
+		66BF13ED2106851A00C5DA52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				66B1F90521027115005B8186 /* cpp_playground */,
+				66BF13EC2106851A00C5DA52 /* FoodAnimalDog */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66B1F90721027115005B8186 /* cpp_playground */ = {
+		66BF13EE2106851A00C5DA52 /* FoodAnimalDog */ = {
 			isa = PBXGroup;
 			children = (
-				66B1F91B21027147005B8186 /* Animal.cpp */,
-				66B1F91821027147005B8186 /* Animal.hpp */,
-				66B1F91921027147005B8186 /* Dog.cpp */,
-				66B1F91A21027147005B8186 /* Dog.hpp */,
-				66B1F91D21027147005B8186 /* Food.cpp */,
-				66B1F91C21027147005B8186 /* Food.hpp */,
-				66B1F90821027115005B8186 /* main.cpp */,
+				66BF13EF2106851A00C5DA52 /* main.cpp */,
 			);
-			path = cpp_playground;
+			path = FoodAnimalDog;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		66B1F90421027115005B8186 /* cpp_playground */ = {
+		66BF13EB2106851A00C5DA52 /* FoodAnimalDog */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 66B1F90C21027115005B8186 /* Build configuration list for PBXNativeTarget "cpp_playground" */;
+			buildConfigurationList = 66BF13F32106851A00C5DA52 /* Build configuration list for PBXNativeTarget "FoodAnimalDog" */;
 			buildPhases = (
-				66B1F90121027115005B8186 /* Sources */,
-				66B1F90221027115005B8186 /* Frameworks */,
-				66B1F90321027115005B8186 /* CopyFiles */,
+				66BF13E82106851A00C5DA52 /* Sources */,
+				66BF13E92106851A00C5DA52 /* Frameworks */,
+				66BF13EA2106851A00C5DA52 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = cpp_playground;
-			productName = cpp_playground;
-			productReference = 66B1F90521027115005B8186 /* cpp_playground */;
+			name = FoodAnimalDog;
+			productName = FoodAnimalDog;
+			productReference = 66BF13EC2106851A00C5DA52 /* FoodAnimalDog */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		66B1F8FD21027115005B8186 /* Project object */ = {
+		66BF13E42106851A00C5DA52 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = adam;
 				TargetAttributes = {
-					66B1F90421027115005B8186 = {
+					66BF13EB2106851A00C5DA52 = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 66B1F90021027115005B8186 /* Build configuration list for PBXProject "cpp_playground" */;
+			buildConfigurationList = 66BF13E72106851A00C5DA52 /* Build configuration list for PBXProject "FoodAnimalDog" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 66B1F8FC21027115005B8186;
-			productRefGroup = 66B1F90621027115005B8186 /* Products */;
+			mainGroup = 66BF13E32106851A00C5DA52;
+			productRefGroup = 66BF13ED2106851A00C5DA52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66B1F90421027115005B8186 /* cpp_playground */,
+				66BF13EB2106851A00C5DA52 /* FoodAnimalDog */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		66B1F90121027115005B8186 /* Sources */ = {
+		66BF13E82106851A00C5DA52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B1F91E21027147005B8186 /* Dog.cpp in Sources */,
-				66B1F92021027147005B8186 /* Food.cpp in Sources */,
-				66B1F90921027115005B8186 /* main.cpp in Sources */,
-				66B1F91F21027147005B8186 /* Animal.cpp in Sources */,
+				66BF13F02106851A00C5DA52 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		66B1F90A21027115005B8186 /* Debug */ = {
+		66BF13F12106851A00C5DA52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,7 +181,7 @@
 			};
 			name = Debug;
 		};
-		66B1F90B21027115005B8186 /* Release */ = {
+		66BF13F22106851A00C5DA52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -247,7 +229,7 @@
 			};
 			name = Release;
 		};
-		66B1F90D21027115005B8186 /* Debug */ = {
+		66BF13F42106851A00C5DA52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -256,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		66B1F90E21027115005B8186 /* Release */ = {
+		66BF13F52106851A00C5DA52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -268,25 +250,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		66B1F90021027115005B8186 /* Build configuration list for PBXProject "cpp_playground" */ = {
+		66BF13E72106851A00C5DA52 /* Build configuration list for PBXProject "FoodAnimalDog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66B1F90A21027115005B8186 /* Debug */,
-				66B1F90B21027115005B8186 /* Release */,
+				66BF13F12106851A00C5DA52 /* Debug */,
+				66BF13F22106851A00C5DA52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		66B1F90C21027115005B8186 /* Build configuration list for PBXNativeTarget "cpp_playground" */ = {
+		66BF13F32106851A00C5DA52 /* Build configuration list for PBXNativeTarget "FoodAnimalDog" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				66B1F90D21027115005B8186 /* Debug */,
-				66B1F90E21027115005B8186 /* Release */,
+				66BF13F42106851A00C5DA52 /* Debug */,
+				66BF13F52106851A00C5DA52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 66B1F8FD21027115005B8186 /* Project object */;
+	rootObject = 66BF13E42106851A00C5DA52 /* Project object */;
 }

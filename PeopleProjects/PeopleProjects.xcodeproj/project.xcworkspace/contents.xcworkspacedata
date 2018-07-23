@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:cpp_playground.xcodeproj">
+      location = "self:PeopleProjects.xcodeproj">
    </FileRef>
 </Workspace>

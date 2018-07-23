@@ -6,7 +6,7 @@ Food::~Food()
 }
 
 Food::Food(std::string name)
-    : m_name(name)
+    : m_name(name), m_totalAvailableBites(4)
 {
     std::cout << "constructor food: " << m_name << std::endl;
 }
