@@ -47,9 +47,6 @@ public:
 
 
 
-
-
-
 int main() {
 
     std::unique_ptr<Project> bigproject = std::make_unique<Project>("Moon Launch");
