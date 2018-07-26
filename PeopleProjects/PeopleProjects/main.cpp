@@ -62,9 +62,9 @@ int main() {
     Person john("john");
 
     projects.push_back(std::move(bigproject));
-    john.AddProject(projects[projects.size()-1].get());
+    john.AddProject(projects.back().get());
     projects.push_back(std::move(journeytomars));
-    john.AddProject(projects[projects.size()-1].get());
+    john.AddProject(projects.back().get());
 
     for (std::unique_ptr<Project>& aproject : projects )
     {
